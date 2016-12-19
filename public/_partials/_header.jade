@@ -6,13 +6,22 @@ header
 
         span.navigation__mobile-menu__icon
 
+      .navigation-logo
+        include ./_logo
+
+        a(href='/')
+          svg(viewbox='0 0 250 89.1')
+            use(href='#logo-main')
+
+          svg(viewbox='0 0 50 28.3')
+            use(href='#logo-minified')
+
+              //img(src='/images/svgs/logo.svg')
+
       ul.navigation__menu
 
-        li.navigation__menu__item(class="#{ current.path[0] == 'index' ? 'is-active' : '' }")
-          a(href='/') Home
+        li.navigation__menu__item(class="#{ current.path[0] == 'mission' ? 'is-active' : '' }")
+          a(href='/') Mission
 
-        li.navigation__menu__item(class="#{ current.path[0] == 'blog' ? 'is-active' : '' }")
-          a(href='/blog') Blog
-
-        li.navigation__menu__item
-          a(href='https://github.com/marzeelabs/generator-mzharp' target='_blank') Github
+        li.navigation__menu__item(class="#{ current.path[0] == 'about' ? 'is-active' : '' }")
+          a(href='/blog') About

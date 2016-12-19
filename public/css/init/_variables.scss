@@ -48,12 +48,6 @@ $palettes: (
     base: rgb(210, 210, 210), // #c5ccd1 palette(grey)
     mid-dark: rgb(51, 51, 51) // #333333 palette(grey, mid-dark)
   ),
-  mzharp: (
-    base: rgb(0, 237, 219), // 00EDDB palette(mzharp)
-    mid-dark: rgb(0, 186, 172), // #00BAAC palette(mzharp, mid-dark)
-    dark: rgb(0, 128, 118), // #008076 palette(mzharp, dark)
-    x-dark: rgb(0, 90, 83) // #005A53 palette(mzharp, x-dark)
-  ),
   white: (
     base: rgb(255, 255, 255) // #fff palette(white)
   )
@@ -78,13 +72,14 @@ $mq-breakpoints: (
 //
 // We are going to create a 1240px wide, 6 column grid with 20px gutters between
 // columns (applied as 10px of left/right padding on each column).
-$canvas-width: 1240px;
+$canvas-width: 1260px;
 
 $susy: (
-  columns: 6,
-  gutters: 1/6,
-  math: fluid,
   output: float,
-  gutter-position: inside,
+  gutter-position: inside-static,
+  container: 1260px,
+  columns: 6,
+  column-width: 210px,
+  gutters: 20px/210px,
   //debug: (image: show)
 );

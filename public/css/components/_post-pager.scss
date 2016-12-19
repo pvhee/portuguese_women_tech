@@ -5,10 +5,10 @@
 }
 
 .post-pager li.previous a, .post-pager li.next a {
-  color: palette(mzharp, mid-dark);
+  color: palette(grey, mid-dark);
   transition: color ease 0.5s;
 
   &:hover {
-    color: palette(mzharp, x-dark);
+    color: palette(grey, x-dark);
   }
 }

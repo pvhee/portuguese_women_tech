@@ -4,8 +4,8 @@ block page_content
 
   .blog-post
 
-    if public.blog._data[current.source]['cover-img']
-      - var coverFilename = public.blog._data[current.source]['cover-img'].split('.');
+    if public.profiles._data[current.source]['cover-img']
+      - var coverFilename = public.profiles._data[current.source]['cover-img'].split('.');
       - var coverExtension = coverFilename.pop();
       - coverFilename.join('.');
 
@@ -43,9 +43,9 @@ block page_content
 
 
 
-    .blog-post__cover(class='#{public.blog._data[current.source].darkTitles === true ? "blog-post__cover--dark" : ""}')
-      h1.blog-post__title #{public.blog._data[current.source].title}
-      h3.blog-post__subtitle #{public.blog._data[current.source].subtitle}
+    .blog-post__cover(class='#{public.profiles._data[current.source].darkTitles === true ? "blog-post__cover--dark" : ""}')
+      h1.blog-post__title #{public.profiles._data[current.source].title}
+      h3.blog-post__subtitle #{public.profiles._data[current.source].subtitle}
 
     .blog-post__content-wrapper.blog-post__section.section-inner
       .blog-post__content
@@ -54,8 +54,8 @@ block page_content
         != yield
 
         .blog-post__post-footer-wrapper
-          - var postFooterDate = public.blog._data[current.source].date;
-          - var postFooterTags = public.blog._data[current.source].tags;
+          - var postFooterDate = public.profiles._data[current.source].date;
+          - var postFooterTags = public.profiles._data[current.source].tags;
           include ../_partials/_post_footer
 
       ul.blog-post__share-buttons

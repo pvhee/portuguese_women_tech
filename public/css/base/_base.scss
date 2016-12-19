@@ -10,7 +10,7 @@
 html {
   font-family: $base-font-family; /* 1 */
   letter-spacing: 0.1em;
-  background: palette(mzharp, mid-dark);
+  background: palette(grey, mid-dark);
 }
 
 @include ritmo-baseline();
@@ -114,13 +114,6 @@ ul, li {
 
   font-weight: 300;
   text-transform: uppercase;
-  color: palette(mzharp, mid-dark);
+  color: palette(grey, mid-dark);
   margin-bottom: ritmo(10);
-}
-
-.section-green-commons {
-  width: auto;
-  background: palette(mzharp, mid-dark);
-  text-align: center;
-  color: palette(white);
 }

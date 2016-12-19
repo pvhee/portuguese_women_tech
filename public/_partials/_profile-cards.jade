@@ -1,0 +1,47 @@
+.profile-cards
+
+  - function excerpt(content) {
+    - if(!content || content.indexOf("<!-- more -->") === -1) return content;
+    - else return content.split("<!-- more -->")[0];
+  - }
+
+
+  ul.profile-cards__content
+    include _latest_posts
+
+    li.profile-cards__content-item
+      a.profile-cards__item(href='/profiles/#{ latestPosts[0].slug }')
+        .profile-cards__item-date!= latestPosts[0].date
+        .profile-cards__item-title!= latestPosts[0].title
+        .profile-cards__item-description!= excerpt(partial('/profiles/' + latestPosts[0].slug + '.md'))
+
+    li.profile-cards__content-item
+      a.profile-cards__item(href='/profiles/#{ latestPosts[0].slug }')
+        .profile-cards__item-date!= latestPosts[0].date
+        .profile-cards__item-title!= latestPosts[0].title
+        .profile-cards__item-description!= excerpt(partial('/profiles/' + latestPosts[0].slug + '.md'))
+
+    li.profile-cards__content-item
+      a.profile-cards__item(href='/profiles/#{ latestPosts[0].slug }')
+        .profile-cards__item-date!= latestPosts[0].date
+        .profile-cards__item-title!= latestPosts[0].title
+        .profile-cards__item-description!= excerpt(partial('/profiles/' + latestPosts[0].slug + '.md'))
+
+    li.profile-cards__content-item
+      a.profile-cards__item(href='/profiles/#{ latestPosts[0].slug }')
+        .profile-cards__item-date!= latestPosts[0].date
+        .profile-cards__item-title!= latestPosts[0].title
+        .profile-cards__item-description!= excerpt(partial('/profiles/' + latestPosts[0].slug + '.md'))
+
+
+    li.profile-cards__content-item
+      a.profile-cards__item(href='/profiles/#{ latestPosts[0].slug }')
+        .profile-cards__item-date!= latestPosts[0].date
+        .profile-cards__item-title!= latestPosts[0].title
+        .profile-cards__item-description!= excerpt(partial('/profiles/' + latestPosts[0].slug + '.md'))
+
+    li.profile-cards__content-item
+      a.profile-cards__item(href='/profiles/#{ latestPosts[0].slug }')
+        .profile-cards__item-date!= latestPosts[0].date
+        .profile-cards__item-title!= latestPosts[0].title
+        .profile-cards__item-description!= excerpt(partial('/profiles/' + latestPosts[0].slug + '.md'))
