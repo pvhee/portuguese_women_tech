@@ -1,0 +1,15 @@
+{
+  "name": "portuguese_women_tech",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
