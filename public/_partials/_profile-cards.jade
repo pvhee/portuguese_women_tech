@@ -1,47 +1,12 @@
 .profile-cards
 
-  - function excerpt(content) {
-    - if(!content || content.indexOf("<!-- more -->") === -1) return content;
-    - else return content.split("<!-- more -->")[0];
-  - }
-
-
   ul.profile-cards__content
-    include _latest_posts
 
-    li.profile-cards__content-item
-      a.profile-cards__item(href='/profiles/#{ latestPosts[0].slug }')
-        .profile-cards__item-date!= latestPosts[0].date
-        .profile-cards__item-title!= latestPosts[0].title
-        .profile-cards__item-description!= excerpt(partial('/profiles/' + latestPosts[0].slug + '.md'))
-
-    li.profile-cards__content-item
-      a.profile-cards__item(href='/profiles/#{ latestPosts[0].slug }')
-        .profile-cards__item-date!= latestPosts[0].date
-        .profile-cards__item-title!= latestPosts[0].title
-        .profile-cards__item-description!= excerpt(partial('/profiles/' + latestPosts[0].slug + '.md'))
-
-    li.profile-cards__content-item
-      a.profile-cards__item(href='/profiles/#{ latestPosts[0].slug }')
-        .profile-cards__item-date!= latestPosts[0].date
-        .profile-cards__item-title!= latestPosts[0].title
-        .profile-cards__item-description!= excerpt(partial('/profiles/' + latestPosts[0].slug + '.md'))
-
-    li.profile-cards__content-item
-      a.profile-cards__item(href='/profiles/#{ latestPosts[0].slug }')
-        .profile-cards__item-date!= latestPosts[0].date
-        .profile-cards__item-title!= latestPosts[0].title
-        .profile-cards__item-description!= excerpt(partial('/profiles/' + latestPosts[0].slug + '.md'))
-
-
-    li.profile-cards__content-item
-      a.profile-cards__item(href='/profiles/#{ latestPosts[0].slug }')
-        .profile-cards__item-date!= latestPosts[0].date
-        .profile-cards__item-title!= latestPosts[0].title
-        .profile-cards__item-description!= excerpt(partial('/profiles/' + latestPosts[0].slug + '.md'))
-
-    li.profile-cards__content-item
-      a.profile-cards__item(href='/profiles/#{ latestPosts[0].slug }')
-        .profile-cards__item-date!= latestPosts[0].date
-        .profile-cards__item-title!= latestPosts[0].title
-        .profile-cards__item-description!= excerpt(partial('/profiles/' + latestPosts[0].slug + '.md'))
+    for profile, slug in public.profiles._data
+      if (slug !== 'index')
+        li.profile-cards__content-item
+          a.profile-cards__item(href='/profiles/#{slug}')
+            .profile-cards__item-image
+              img(src='/images/profiles/#{profile.image}.jpg', alt='#{profile.title.toLowerCase().replace(" ", "-")}', title='#{profile.title}')
+            h5.profile-cards__item-name #{profile.name}
+            h6.profile-cards__item-title #{profile.title}

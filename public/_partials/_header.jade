@@ -2,26 +2,25 @@ header
 
   .navigation
 
-      .navigation__mobile-menu__toggle
+    .navigation__mobile-menu__toggle
 
-        span.navigation__mobile-menu__icon
+      span.navigation__mobile-menu__icon
 
-      .navigation-logo
-        include ./_logo
+    .navigation-logo
+      include ./_svg-elements
 
-        a(href='/')
-          svg(viewbox='0 0 250 89.1')
-            use(href='#logo-main')
+      a(href='/').navigation-logo__svg
 
-          svg(viewbox='0 0 50 28.3')
-            use(href='#logo-minified')
+        svg.navigation-logo__svg-main
+          use(href='#logo-main')
 
-              //img(src='/images/svgs/logo.svg')
+        svg.navigation-logo__svg-minified
+          use(href='#logo-minified')
 
-      ul.navigation__menu
+    ul.navigation__menu
 
-        li.navigation__menu__item(class="#{ current.path[0] == 'mission' ? 'is-active' : '' }")
-          a(href='/') Mission
+      li.navigation__menu-item(class="#{ current.path[0] == 'mission' ? 'is-active' : '' }")
+        a(href='/') Mission
 
-        li.navigation__menu__item(class="#{ current.path[0] == 'about' ? 'is-active' : '' }")
-          a(href='/blog') About
+      li.navigation__menu-item(class="#{ current.path[0] == 'about' ? 'is-active' : '' }")
+        a(href='/blog') About
