@@ -4,17 +4,31 @@
   },
 
     "profile01": {
+      "image": "night-sky",
       "name": "Name of the Woman",
       "title": "The job of the Woman",
+      "time": "6 years",
+      "role": "Head of Operations",
+      "origin": "Porto, Portugal",
       "darkTitles": false,
       "tags": [
-      "these",
-      "are",
-      "tags"
+        "these",
+        "are",
+        "tags"
       ],
       "comments": false,
-      "image": "night-sky",
       "date": "2016-01-01",
+      "socialMedia": {
+        "twitter": {
+          "url":"/"
+        },
+        "facebook": {
+          "url":"/"
+        },
+        "medium": {
+          "url":"/"
+        }
+      },
       "published": true
     },
 
