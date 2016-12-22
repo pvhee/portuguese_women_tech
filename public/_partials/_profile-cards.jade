@@ -5,8 +5,8 @@
     for profile, slug in public.profiles._data
       if (slug !== 'index')
         li.profile-cards__content-item
-          a.profile-cards__item(href='/profiles/#{slug}')
-            .profile-cards__item-image
+          a.profile-cards__content-item__link(href='/profiles/#{slug}')
+            .profile-cards__content-item__link-image
               img(src='/images/profiles/#{profile.image}.jpg', alt='#{profile.name.toLowerCase().replace(" ", "-")}', title='#{profile.name}')
-            h5.profile-cards__item-name #{profile.name}
-            h6.profile-cards__item-title #{profile.title}
+            h5.profile-cards__content-item__link-name #{profile.name}
+            h6.profile-cards__content-item__link-title #{profile.title}
