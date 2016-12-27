@@ -88,7 +88,7 @@
   }
 
   @include mq($from: break-medium) {
-    padding-right: 5px;
+    padding-right: 15px;
     float: right;
     margin-top: ritmo(5);
   }
@@ -158,7 +158,7 @@
 
   @include mq($from: break-medium) {
     display: inline-block;
-    //margin: 0 0.5em;
+    margin: 0 0.15em;
     text-transform: uppercase;
     background-color: transparent;
   }
@@ -218,6 +218,13 @@
 
   @include mq($from: break-medium) {
     display: block;
+    width: 85%;
+    margin: 0 7.5%;
+  }
+
+  @include mq($from: break-large) {
+    width: 100%;
+    margin: 0 auto;
   }
 }
 

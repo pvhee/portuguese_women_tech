@@ -133,24 +133,10 @@
     display: block;
     height: 1px;
     background: palette(grey);
-    margin-bottom: ritmo(6);
+    margin-bottom: ritmo(4);
   }
 }
 
 .profile__content-tags__links {
-  display: inline-block;
-  padding: ritmo() 15px;
-  border: palette(black) 1px solid;
-  color: palette(black);
-  transition: all ease-in 0.15s;
-  margin-right: 10px;
-
-  &:last-child {
-    margin-right: 0;
-  }
-
-  &:hover {
-    background: palette(black);
-    color: palette(white);
-  }
+  @extend .tags;
 }
