@@ -81,9 +81,9 @@
   @include ritmo-leading(3);
 }
 
-.profile-cards__content-item__link-title {
+.profile-cards__content-item__link-role {
   font-weight: 400;
   @include ritmo-font-size(14px);
-  @include ritmo-leading(2);
+  @include ritmo-leading(4);
 }
 
