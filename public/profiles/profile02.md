@@ -1,89 +1,33 @@
-*Lorem markdownum quid* praestantior suas postquam sperata aeno; postquam
-tegumenque. Fretumque **obscurum**. Questaque in silvas utrimque vocat Maia
-precor et campos, vulnere *petitur est*, et comitem defendit quisquam. [Silvis
-vulnere](http://html9responsiveboilerstrapjs.com/): mea suumque **imponit**,
-quam dicimus, ora te, ego, en. Molire enim montis Sigea, patefecit fuisset, ab
-reliquit utque sui, alius.<!-- more -->
+###### Early years and where you came from?
+I was born in a small village close to Porto and at 18 I went to the University of Porto to study Management. Back then, I dreamt with a job at Goldman Sachs in New York, but life changed dramatically and I ended up falling in love with startups. 
 
-## H2 featuring inline code
+###### How were you introduced to the world of tech?
+I always knew I was somehow geeky. I was always looking for new gadgets and in my teenage years, I spent more hours that I like to admit playing PlayStation, GameBoy and computer. My summer holidays and weekends were spent between books (I love to read) and video games.
+However, my real introduction to tech happen when I was in college. In 2007, I joined FEP Junior Consulting (student-led organization that does consultancy work) and I had my first contact with incubators and startups. Then, through a series of lucky moments, I ended up organizing Barcamp Porto in 2010 and that’s where I fell in love with technology and entrepreneurship. Since then, everything I’ve done has been driven by curiosity and a deep passion for connecting people and ideas. 
 
-Pedes Achaidas, ``procul nunc`` nec honore tutela? Et modo neu Quid indicium. *Ait*
-silentia periuria saepe aequorque tamen, amisit artus siccat. {image-left}![Author](/images/profiles/sky-earth-space-working.jpg) Diam virgultis ut
-taurus capellae sollemni plausit Corinthus dare, admonitorque. Lorem markdownum posset tergoris fecere, poteras habent sentit opus Orion tam
-frena **sanguine pulsat**, est misit [crepuscula](http://tumblr.com/). Iacentem
-iustis posses vincemur Sidonius tu tale mihi territus et. Nec spectabere in quem. Subscribi visus Perrhaebum dentes Aegaeas. Tenet
-Hyadasque nitidum; admissum et fuerat exhausto potentum incursu. Satiata
-venturaque ignibus *vincula*, non utque virgine in Siculis succincta secant!
-Populus partem cava Delius [non](http://example.com/) Sunt caelumque membraque
-revocare da fictus mandataque tota. Pars caelo Chaoque, mane per namque non procellae quoque sidereum, troia,
-fitque, et illam quaerens. Hanc tot sic adhuc plangere nominibus ad caeli,
-refringit, [possis](http://imgur.com/), erat et ipsi **videntur aras**: domino.
-In patiare rapis deae Iasiona quis est; tamen noviens facit. Rector ut sed iam sit facit quas est nam datus: cereris Gigantas miser per, sub
-te contigit? Auctore pulvere: utrumque forma adclinavit locis turba circumdare,
-Phaethontis. Quin vaporem mox nostro, et pressa corpora, et num. Nexus verborum
-mollit *speciosoque quod* testantia dissiluit volitat. Nato multa, surgere?
+###### Walk me through your work and what you are doing now.
+I’m the growth lead at TOPDOX, a Porto-based startup. TOPDOX is the easiest way to get things done on mobile. Through one single app, you can access, read, edit & share any document, anywhere. Even offline. At TOPDOX, I spend my days talking with users, defining and implementing marketing and communication strategies and analysing data. On the side, I’m actively involved in the Portuguese startup scene and I like to think of myself as an unofficial ambassador for the Portuguese startup ecosystem abroad. 
 
+###### What part of what you do, you love the most?
+I love connecting people and ideas. 
 
-### H3 featuring code block
+###### How do you think that your background and knowledge impact the way you approach your work?
+Because of my non-technical background, it’s easier for me to put aside the technicalities of building a product and focus on the impact that product will have in the user’s life. 
 
-Protectus alienae vultus non Cephisias est, propius, de carmina, citharam et
-hunc; huic bonis dominum. Intus languescuntque auctor dolos, me nostrum aditus
-*superbia subiecta*.
+###### What advice do you have for young women that want to get into tech and don’t know where to start?
+Start attending tech meetups like Porto/Minho/Coimbra Startup Coffee, BREAK, Girls Lean in or Portugal Girl Geek Dinners. Get actively involved by adding value to the other participants and by helping out the organizers. After that, things will just happen. 
 
-    wordartDesktop = t;
-    truncate_moodle += mediaPseudocode(fifoDigital(sla_delete_modifier, trashSinkCompatible, cloudHypertextResolution(computerCmos, worm_adapter, 46)));
-    if (webCharacterWeb * vector > 4) {
-        post_gigo = module.responsive(alu_hit_raid, meme_voip) / fragmentation_import;
-    } else {
-        servletSystray(4);
-    }
-    if (name.icann(gis_snmp(property_daw.microcomputer_configuration(viral_mbps_function), exploitJsp + install_optical_cmyk, linux_vfat_intellectual.ddl(uri, kernelYobibyte)), ddr_expression)) {
-        halftone_vga_hard = contextualDefaultRss;
-        ntfs.softwareHorse += box + 2 + smishingVeronica;
-        logSubdirectoryDesktop -= 5;
-    }
+###### Walk me through a day in your life.
+I wake up at 7:30am full of energy. No matter at what time I wake up or how many hours of sleep I have, I always wake up energized. I usually leave my house to work around 8:30am. On most days, I have early morning skype calls with friends living abroad or with startups and other entrepreneurship organizations. I do a lot of informal mentoring these days. Then I start working around 9:30 am until 7pm. I have a short break for lunch around 2pm and usually that’s the only break I take. My days at TOPDOX are very diversified. Sometimes I work on collecting and analysing data, other times I do content marketing, other times I do business development & sales, etc. After leaving I either go home and have dinner, or I stay close to the office and work on some side projects. It can be writing a blog post, preparing for a talk, putting together my monthly newsletter or develop some ideas. Sometimes, I have a few more calls before going home. When I get home I try to read as much as possible. Reading (listen to interesting podcasts and watching videos) is a priority for me because it’s the only way to get better at my job. I go to bed around 12:30am. 
 
-#### H4 featuring blockquote
+###### What's the best advice you've ever received?
+I honestly don’t know. What I do know is that a lot of what I am was influenced by the examples of my parents and grandmother. Since a young age, I was incentive to work hard, stay curious and never give up. 
 
-Circe Alcyone septem; mando exsangues potentem inque temporis
-[herbis](http://twitter.com/search?q=haskell), tot ali in anili corpus vitiasse
-summo, *per*? Quibus qua Annus
-[magnis](http://kimjongunlookingatthings.tumblr.com/) lacrimas *tu genitore
-aquilonibus* mariti in utrumque illis minus tum! {image-right}![Author](/images/profiles/night-sky.jpg) Nostri deus vellet canitie, tu
-ubi Labros, suco committere natae: nostris. Rursus quam? Erat dolet **est**; inde aere fetum solvo, et valles senectae, carnes *quid*.
-Exululatque penetravit Argos, me me consuerant est auspicio squalidus ab aequor
-virgo mersurum vocesque; mille posita porrigitur! Atlas se in mugit tamen, non
-et *patre florumque* venenum quoque draconibus rigidi senserat. Aurato sibi
-vivum, caede ad fiducia viam. Canis non maeonis crimine regia, quid furores
-conpulit, et anima, quod cupiere gerit, inmensos sol in. Procellae nec una praerupta labori putes deflevere quamvis, lacrimare talaribus
-quas, colla? Nocet toro ut illos **quaedam** suarum indurat neque Herculis
-rurisque in labra tigris prosternite Cipe Graiumque Tantale Phoebus. Quos dei
-Iliacas scit cinnama gravitate gaudere; qui sociis putetis.
+###### What apps/software/tools can't you live without?
+On a very practical level I can’t live without Gmail,  Sunrise and TOPDOX. These 3 apps run my life. Gmail to connect with people. Sunrise to make sure I don’t forget any appointment. TOPDOX to access & edit my documents wherever they are. Twitter, Facebook and LinkedIn are also super important to me. 
 
-> Malum nate ferarum causa pulsarunt morsu generosam paenitet eadem si et saxa
-> equum [necis oscula nunc](http://www.lipsum.com/). Dixit annis ille prius
-> usque poenas bene venit, inmensos sollicitis: perit illa belli precari. Irae
-> longa vultus virgineam humanam nomen cessante calathis inter, aper fata
-> mutaverat totque. Ferro idque monstra, meritam et omnes tellus supplex quoque,
-> ferus. Movit canistris hac levatus inpugnante prece et praemia Titan caesariem
-> stricto Emathiique fronti petit dicentem, rabie se
-> [pecoris](http://gifctrl.com/).
-
-##### H5 featuring list
-
-Talis cortice, dura eadem dictis velamina [quibus
-parenti](http://reddit.com/r/thathappened) aut Baccho resumit! Turbamve medullis
-candens est ad tabulas Iovis, longi sumat ecce et. Passo inquam, gurgite
-ponentem quoniam sedibus respice texit cortice.
-
-![MZ Harp](/images/profiles/sky-earth-space-working.jpg)
-
-1. Dum hac pars factis omni tibi terras
-2. Unam in contra exitiabile confodit tam meruit
-3. Tangeris ferrum
-4. Ore profugus magis
-
-In sanguine capillis talibus; parentis quos metuentior fugit inficere, effuge.
-Magnae [velocior](http://hipstermerkel.tumblr.com/) missa fugio; dedit
-somniferis muris se caede quondam arbor! Nelidae formae Atridae in, est, media,
-merguntque et euhoe: vero ore non ille est?
+###### Links that you want to share?
+Projects I’ve been involved:
+* [Startup Pirates](http://startuppirates.org/)
+* [PortugalStartups.com/](http://portugalstartups.com/)
+* [Trojan Horse was a Unicorn](https://trojan-unicorn.com/)

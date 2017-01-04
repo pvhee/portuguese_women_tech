@@ -4,6 +4,7 @@
   },
 
     "profile01": {
+      "layout": "_layout",
       "image": "ines_silva",
       "name": "Inês Santos Silva",
       "time": "6 years",
@@ -32,17 +33,31 @@
     },
 
     "profile02": {
-      "name": "Name of the Lady",
-      "role": "The job of the Lady",
+      "layout": "_layout_alt",
+      "image": "ines_silva",
+      "name": "Inês Santos Silva",
+      "time": "6 years",
+      "role": "Head of Operations & Growth @ Platforme",
+      "origin": "Porto, Portugal",
       "darkTitles": false,
       "tags": [
-      "these",
-      "are",
-      "tags"
+        "these",
+        "are",
+        "tags"
       ],
       "comments": false,
-      "image": "sky-earth-space-working",
       "date": "2016-01-01",
+      "socialMedia": {
+        "twitter": {
+          "url":"/"
+        },
+        "linkedin": {
+          "url":"/"
+        },
+        "medium": {
+          "url":"/"
+        }
+      },
       "published": true
     },
 

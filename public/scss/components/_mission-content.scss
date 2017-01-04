@@ -1,6 +1,5 @@
 .mission-section {
   @extend .intro-section;
-  text-align: left;
 }
 
 .mission-section__content {
@@ -11,6 +10,7 @@
   @extend .intro-section__title;
   @include ritmo-font-size(18px);
   @include container(860px);
+  margin-bottom: ritmo(4);
 
   @include mq(break-medium-small) {
     @include ritmo-font-size(22px);
@@ -28,7 +28,7 @@
   background: palette(white);
   border: 1px solid palette(black);
   border-radius: 100px;
-  margin: ritmo(4) auto;
+  margin: ritmo(4) auto ritmo(8) auto;
   padding: ritmo(3) 20px;
   @include ritmo-font-size(14px);
   text-transform: uppercase;

@@ -1,6 +1,5 @@
 .participate-section {
   @extend .intro-section;
-  text-align: left;
 }
 
 .participate-section__content {
@@ -11,6 +10,7 @@
   @extend .intro-section__title;
   @include ritmo-font-size(18px);
   @include container(860px);
+  margin-bottom: ritmo(3);
 
   @include mq(break-medium-small) {
     @include ritmo-font-size(22px);
@@ -22,51 +22,51 @@
   margin: ritmo(4) auto;
 }
 
-.participate-section__form {
-
-}
-
 .participate-section__form__field {
   width: 100%;
   display: block;
   margin: ritmo(6) auto;
 
+  &:first-of-type {
+    border-top: 1px solid rgba(palette(grey), 0.5);
+    padding-top: ritmo(5);
+  }
+
+  @include mq($from: break-medium) {
+    width: 75%;
+  }
+
   label {
-    width: 100%;
     display: block;
     margin-bottom: ritmo();
     color: palette(grey, mid-dark);
     text-align: center;
+    width: 100%;
 
     @include mq($from: break-medium) {
       text-align: left;
+      margin: 0 auto ritmo() auto;
     }
   }
 
   input,
   textarea {
-    width: 100%;
     padding: ritmo() 10px;
-
-    @include mq($from: break-medium) {
-      width: 65%;
-    }
+    width: 100%;
   }
 
   textarea {
+    width: 100%;
     min-height: ritmo(25);
   }
 }
+
 
 .participate-section__form__submit {
   width: 100%;
   display: block;
   margin: ritmo(6) auto;
   text-align: center;
-
-  @include mq($from: break-medium) {
-    text-align: left;
-  }
 
   input {
     display: inline-block;
