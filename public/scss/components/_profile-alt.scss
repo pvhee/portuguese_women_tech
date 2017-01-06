@@ -61,7 +61,7 @@
 
 .profile-alt__content-resume__name {
   text-align: center;
-  padding: 0 7.5%;
+  padding: 0 8.5%;
   position: absolute;
   width: 100%;
   z-index: 5;
@@ -77,22 +77,23 @@
   h2 {
     display: block;
     font-weight: 300;
-    @include ritmo-font-size(20px);
+    @include ritmo-font-size(22px);
     background: palette(white);
-    padding-top: ritmo(5);
+    padding-top: ritmo(4);
     padding-bottom: ritmo(5);
-    transform: translateY(-150%);
+    transform: translateY(-110%);
 
     @include mq($from: break-medium-small) {
-      @include ritmo-font-size(35px);
+      @include ritmo-font-size(40px);
+      padding-top: ritmo(5);
     }
 
     @include mq($from: break-medium-large) {
       transform: none;
       padding: 0;
       line-height: 18px;
-      margin-bottom: ritmo(2);
-      @include ritmo-font-size(25px);
+      margin-bottom: ritmo(4);
+      @include ritmo-font-size(35px);
     }
   }
 }
