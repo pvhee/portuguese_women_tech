@@ -1,0 +1,5 @@
+title = "PT Women in Tech"
+baseurl = "http://example.org/"
+languageCode = "en-us"
+theme = "hugo_theme_robust"
+contentdir = "content"
