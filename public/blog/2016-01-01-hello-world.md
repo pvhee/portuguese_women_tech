@@ -1,5 +1,7 @@
 ---
-{}
+date: 2017-01-19T16:32:31.434Z
+title: Hello World
+subtitle: Some subtitle
 ---
 
 CMS This is an example of a post created using markdown. The teaser text goes until here.<!-- more -->
