@@ -50,3 +50,7 @@ Travis is also setup to automatically build the website and deploy the static fi
 ## Credits
 
 Made by [Marzee Labs](http://marzeelabs.org)
+
+
+## Netlify CMS
+Read and perform instructions outlined here: https://www.netlify.com/docs/authentication-providers/
