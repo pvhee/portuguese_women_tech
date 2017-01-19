@@ -1,0 +1,14 @@
+backend:
+  name: github
+  repo: lmcorreia/portuguese_women_tech # Path to your Github repository
+  branch: master # Branch to update (master by default)
+
+media_folder: "public/_posts-images" # Folder where user uploaded files should go
+
+collections: # A list of collections the CMS should be able to edit
+  - name: "pages" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Page" # Used in the UI, ie.: "New Post"
+    folder: "public/blog" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Body", name: "body", widget: "markdown"}
