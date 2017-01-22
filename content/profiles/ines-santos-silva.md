@@ -1,25 +1,21 @@
 ---
-date: "2017-01-18T15:41:41Z"
-title: "Inês Santos Silva"
-description: "Head of Operations & Growth @ Platforme"
-image: "ines_silva.jpg"
-timeInTech: "6 years"
-placeOfOrigin: "Porto, Portugal"
-socialLinks: [
-  {
-    name: "twitter",
-    url: "https://twitter.com/isss111"
-  },
-  {
-    name: "linkedin",
-    url: "https://www.linkedin.com/in/inessantossilva"
-  },
-  {
-    name: "medium",
-    url: "https://medium.com/@isss111"
-  }
-]
-tags: ["these", "are", "tags"]
+date: '2017-01-18T15:41:41Z'
+title: Inês Santos Silva
+description: Head of Operations & Growth @ Platforme
+timeInTech: 6 years
+placeOfOrigin: 'Porto, Portugal'
+socialLinks:
+  - name: twitter
+    url: 'https://twitter.com/isss111'
+  - name: linkedin
+    url: 'https://www.linkedin.com/in/inessantossilva'
+  - name: medium
+    url: 'https://medium.com/@isss111'
+image: /images/profiles/ines_silva.jpg
+tags:
+  - these
+  - are
+  - tags
 ---
 
 ###### Early years and where you came from?
