@@ -6,9 +6,18 @@ image: "ines_silva.jpg"
 timeInTech: "6 years"
 placeOfOrigin: "Porto, Portugal"
 socialLinks: [
-    twitter: "https://twitter.com/isss111",
-    linkedin: "https://www.linkedin.com/in/inessantossilva",
-    medium: "https://medium.com/@isss111"
+  {
+    name: "twitter",
+    url: "https://twitter.com/isss111"
+  },
+  {
+    name: "linkedin",
+    url: "https://www.linkedin.com/in/inessantossilva"
+  },
+  {
+    name: "medium",
+    url: "https://medium.com/@isss111"
+  }
 ]
 tags: ["these", "are", "tags"]
 ---

@@ -39,13 +39,11 @@
 
       <div class="profile__content-resume__item-social">
         {{ range .Params.socialLinks }}
-          {{ range $network, $url := . }}
-          <a href="{{ $url }}" target="_blank">
-            <svg class="profile__content-resume__item-social__icon">
-              <use href="#{{ $network }}-icon"></use>
-            </svg>
-          </a>
-          {{ end }}
+        <a href="{{ .url }}" target="_blank">
+          <svg class="profile__content-resume__item-social__icon">
+            <use href="#{{ .name }}-icon"></use>
+          </svg>
+        </a>
         {{ end}}
       </div>
     </div>
