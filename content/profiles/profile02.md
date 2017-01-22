@@ -12,7 +12,7 @@ socialLinks:
     url: 'https://www.linkedin.com/in/inessantossilva'
   - name: medium
     url: 'https://medium.com/@isss111'
-image: /images/profiles/ines_silva_test.jpg
+image: /static/ines_silva_new-test.jpg
 tags:
   - these
   - are
