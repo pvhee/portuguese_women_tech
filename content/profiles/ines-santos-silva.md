@@ -13,7 +13,7 @@ socialLinks:
     url: 'https://medium.com/@isss111'
   - name: facebook
     url: 'https://marzeelabs.org'
-image: /images/profiles/ines_silva.jpg
+image: /images/profiles/sky-earth-space-working.jpg
 tags:
   - these
   - are
@@ -37,11 +37,13 @@ I’m the growth lead at TOPDOX, a Porto-based startup. TOPDOX is the easiest wa
 
 I love connecting people and ideas.
 
-###### How do you think that your background and knowledge impact the way you 
+###### How do you think that your background and knowledge impact the way you
+
 approach your work?
 Because of my non-technical background, it’s easier for me to put aside the technicalities of building a product and focus on the impact that product will have in the user’s life.
 
-###### What advice do you have for young women that want to get into tech and 
+###### What advice do you have for young women that want to get into tech and
+
 don’t know where to start?
 Start attending tech meetups like Porto/Minho/Coimbra Startup Coffee, BREAK, Girls Lean in or Portugal Girl Geek Dinners. Get actively involved by adding value to the other participants and by helping out the organizers. After that, things will just happen.
 
