@@ -11,6 +11,8 @@ socialLinks:
     url: 'https://www.linkedin.com/in/inessantossilva'
   - name: medium
     url: 'https://medium.com/@isss111'
+  - name: facebook
+    url: 'https://marzeelabs.org'
 image: /images/profiles/ines_silva.jpg
 tags:
   - these
