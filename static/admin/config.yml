@@ -4,6 +4,7 @@ backend:
   branch: feature/4_go_hugo # Branch to update (master by default)
 
 media_folder: "static/images/profiles" # Folder where user uploaded files should go
+public_folder: "static"
 
 collections: # A list of collections the CMS should be able to edit
   - name: "profile" # Used in routes, ie.: /admin/collections/:slug/edit
