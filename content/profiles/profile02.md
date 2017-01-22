@@ -1,7 +1,7 @@
 ---
 date: '2017-01-18T15:41:41Z'
 layout: profile_alt
-title: Inês Santos Silva
+title: Profile 2
 description: Head of Operations & Growth @ Platforme
 timeInTech: 6 years
 placeOfOrigin: 'Porto, Portugal'
