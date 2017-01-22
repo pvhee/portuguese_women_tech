@@ -3,7 +3,7 @@ backend:
   repo: lmcorreia/portuguese_women_tech # Path to your Github repository
   branch: feature/4_go_hugo # Branch to update (master by default)
 
-media_folder: "images/profiles" # Folder where user uploaded files should go
+media_folder: "static/images/profiles" # Folder where user uploaded files should go
 
 collections: # A list of collections the CMS should be able to edit
   - name: "profile" # Used in routes, ie.: /admin/collections/:slug/edit
