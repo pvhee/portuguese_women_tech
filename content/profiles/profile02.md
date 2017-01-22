@@ -11,6 +11,7 @@ socialLinks: [
     medium: "https://medium.com/@isss111"
 ]
 tags: ["these", "are", "tags"]
+layout: "profile_alt"
 ---
 
 ###### Early years and where you came from?
