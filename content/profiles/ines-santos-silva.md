@@ -13,9 +13,7 @@ socialLinks:
     url: 'https://medium.com/@isss111'
   - name: facebook
     url: 'https://marzeelabs.org'
-  - name: instagram
-    url: 'https://marzeelabs.org'
-image: /images/profiles/sky-earth-space-working.jpg
+image: /images/profiles/ines_silva_new-test.jpg
 tags:
   - these
   - are
